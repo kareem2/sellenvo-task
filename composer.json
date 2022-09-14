@@ -1,0 +1,18 @@
+{
+    "name": "sellenvo/shopify-api-client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sellenvo\\ShopifyApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Al Harazin",
+            "email": "karim.alharazin@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
