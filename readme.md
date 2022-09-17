@@ -88,3 +88,11 @@ public function updateAllProductQuantities($quantity)
 // function call
 $product->updateAllProductQuantities(50);
 ```
+
+#### Import from CSV file
+The CSV file must follow the columns order like in the sample file in the test folder.
+```
+$product = new Product($this->apiClient);
+
+$products = $product->importFromCsv(__DIR__ . '/products.csv');
+```
