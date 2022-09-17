@@ -278,12 +278,4 @@ final class ProductTest extends TestCase
 
     }
 
-    /** @test */
-    public function test_()
-    {
-        $product = new Product($this->apiClient);
-        $product->updateAllProductQuantities(50);
-    }
-
-
 }
